@@ -1,4 +1,4 @@
-# TypeScript: Improving Code Quality and Using Union & Intersection Types
+##QUESTION AND ANSWER
 
 ## How TypeScript Helps in Improving Code Quality and Project Maintainability
 
@@ -27,17 +27,19 @@ function printId(id: string | number) {
 2.Intersection Types (&)
 Merges multiple types into one type.
 
+```typescript
 interface User {
-name: string;
+  name: string;
 }
 
 interface Admin {
-role: string;
+  role: string;
 }
 
 type SuperUser = User & Admin;
 
 const superUser: SuperUser = {
-name: "Alice",
-role: "Admin",
+  name: "Alice",
+  role: "Admin",
 };
+```
