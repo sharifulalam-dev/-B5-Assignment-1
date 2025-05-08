@@ -1,8 +1,9 @@
-##QUESTION AND ANSWER
+## QUESTION AND ANSWER
 
 ## How TypeScript Helps in Improving Code Quality and Project Maintainability
 
-TypeScript improving code quality and project maintainability by following way:  
+TypeScript improving code quality and project maintainability by following way:
+
 ✅ Early Bug Detection – Catches type errors during development, preventing runtime crashes.  
 ✅ Self-Documenting Code – Clear type annotations improve readability and collaboration.  
 ✅ Smart Tooling – Autocomplete, refactoring, and error hints speed up development.  
@@ -16,7 +17,7 @@ TypeScript is ideal for teams and long-term projects.
 ## Provide an example of using union and intersection types in TypeScript.
 
 1. Union Types (|)  
-   Where any of the type is valid
+   Where any of the mentioned type is valid
 
 ```typescript
 function printId(id: string | number) {
@@ -24,8 +25,8 @@ function printId(id: string | number) {
 }
 ```
 
-2.Intersection Types (&)
-Merges multiple types into one type.
+2. Intersection Types (&)
+   Merges multiple types into one type.
 
 ```typescript
 interface User {
